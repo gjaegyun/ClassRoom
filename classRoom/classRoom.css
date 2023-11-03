@@ -245,3 +245,103 @@ body {
     display: block;
     color: #3c4043;
 }
+
+.underLine {
+    margin: .5rem 0;
+    padding: 0;
+    height: 1px;
+    background-color: rgba(0,0,0,.12);
+
+}
+
+.underArrow {
+    rotate: 180deg;
+    display: flex;
+    margin-left: -1rem;
+    margin-right: -0.5rem;
+
+    color: #5f6368;
+    fill: #5f6368;
+}
+
+.classArrow {
+    fill: currentColor;
+    flex-shrink: 0;
+    width: 24;
+    height: 24;
+}
+
+.group {
+    display: block;
+}
+
+.assign {
+    height: 3rem;
+    padding-right: 1.25rem;
+
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.assignDiv {
+    right: 0.75rem;
+    border-radius: 0 2rem 2rem 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+
+    display: block;
+}
+
+.blueCircle {
+    background-color: rgb(25,103,210);
+    color: #fff;
+    line-height: 2rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border-radius: 50%;
+    height: 2rem;
+    text-align: center;
+    width: 2rem;
+
+    display: block;
+}
+
+.greenCircle {
+    background-color: rgb(19,115,51);
+    color: #fff;
+    line-height: 2rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border-radius: 50%;
+    height: 2rem;
+    
+    text-align: center;
+    width: 2rem;
+
+    display: block;
+}
+
+.blackCircle {
+    background-color: rgb(32,33,36);
+    color: #fff;
+    line-height: 2rem;
+
+    font-size: 1rem;
+    font-weight: 500;
+
+    border-radius: 50%;
+    height: 2rem;
+    text-align: center;
+    width: 2rem;
+
+    display: block;
+}
