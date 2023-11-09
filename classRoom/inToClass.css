@@ -473,5 +473,317 @@ body {
 .flex {
     display: flex;
     flex-direction: column;
+}
+
+.rem {
     padding-bottom: 1rem;
+}
+
+.allMid {
+    margin-right: -0.75rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.allLeft {
+    margin-bottom: 0.75rem;
+    margin-right: 0.75rem;
+    width: calc(50% - 0.75rem);
+}
+
+.borderGray {
+    position: relative;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    border: 0.0625rem solid #dadce0;
+    border-radius: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.triangle {
+    margin-right: 1rem;
+    height: 4.375rem;
+    width: 6.5625rem;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-right: 0.0625rem solid #e0e0e0;
+}
+
+.triangleText {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #3c4043;
+}
+
+.font {
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #5f6368;
+    align-items: center;
+    flex-direction: row;
+}
+
+.deep {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.unKnownFile {
+    margin-right: 0.25rem;
+}
+
+.under {
+    border-top: 0.125rem solid #e8eaed;
+}
+
+.padding {
+    padding-top: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.peopleIcon {
+    margin-right: 0.5rem;
+    color: #5f6368;
+    fill: #5f6368;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.font-size {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+
+.last {
+    color: rgb(25,103,210);
+    margin-left: -0.5rem;
+    display: inline-block;
+    line-height: 1.5rem;
+    margin-top: 0.25rem;
+    padding: 0.5rem 0;
+}
+
+.lastPad {
+    padding: 0 8px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.text {
+    display: inline-block;
+    margin: 0;
+}
+
+.topAssign {
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.assignText {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    flex-direction: row;
+}
+
+.assignBox {
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #3c4043;
+}
+
+.boxCss {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+
+.grid {
+    text-align: right;
+    display: grid;
+}
+
+.relative {
+    position: relative;
+}
+
+.cancleBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.importantBox {
+    margin-bottom: 1rem;
+}
+
+.cancleImg {
+    position: relative;
+    padding-right: 0.5rem;
+    background-color: #fff;
+    border: 0.0625rem solid #dadce0;
+    border-radius: 0.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.justCss {
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #2962ff;
+}
+
+.secondTriangle {
+    margin-right: 0.5rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    position: relative;
+    border-right: 0.0625rem solid #e0e0e0;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.secondText {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+
+.display {
+    display: flex;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    color: #5f6368;
+    align-items: center;
+    flex-direction: row;
+}
+
+.displayText {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.dontKnow {
+    margin-right: 0.25rem;
+}
+
+.chuiso {
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+}
+
+.almostSame {
+    display: flex;
+    flex-direction: column;
+}
+
+.rgb {
+    color: rgb(25,103,210);
+    width: 100%;
+    border: 1px #dadce0 solid;
+    height: 36px;
+    line-height: 34px;
+}
+
+.jechul {
+    padding: 0 23px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.jechulText {
+    display: inline-block;
+    margin: 0;
+}
+
+.bottomAssign {
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.3), 0 2px 6px 2px rgba(60,64,67,.15);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.bottomOfTop {
+    margin: 1rem 1.5rem 0 1.5rem !important;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomIcon {
+    margin-right: 0.5rem;
+    color: #5f6368;
+    fill: #5f6368;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.unKnownComment {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.addComment {
+    color: rgb(25,103,210);
+    margin: 0 1.25rem;
+    display: inline-block;
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+}
+
+.addBlue {
+    padding: 0 8px;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.blueCss {
+    margin: 0;
 }
