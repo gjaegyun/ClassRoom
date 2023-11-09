@@ -345,3 +345,133 @@ body {
 
     display: block;
 }
+
+.includeAll {
+    display: flex;
+}
+
+.includeLeft {
+    width: 18.75rem;
+    flex: 0 0 18.75rem;
+}
+
+.middleBox {
+    flex: 1 1 auto;
+    min-width: 0;
+    position: relative;
+}
+
+.inToBox {
+    min-height: 100%;
+    height: auto;
+    position: relative;
+}
+
+.topBox {
+    height: 4.0625rem;
+}
+
+.boxPadding {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1.5rem 1.5rem 1.5rem;   
+}
+
+.icon {
+    height: 2.375rem;
+    width: 2.375rem;
+    background-color: rgb(66,133,244);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    color: #fff;
+    fill: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.middleText {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    max-width: 47.5rem;
+    min-width: 0;
+}
+
+.myAssign {
+    flex: 0 0 auto;
+    margin-left: 2rem;
+    max-width: 18.75rem;
+    width: 18.75rem;
+}
+
+.blueText {
+    border-bottom: 1px solid rgb(66,133,244);
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.inToBlue {
+    align-items: center;
+    display: flex;
+    margin-bottom: 0.25rem;
+}
+
+.blueColor {
+    color: rgb(25,103,210);
+    fill: rgb(25,103,210);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin: 0;
+}
+
+.middleBlue {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #5f6368;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.justDot {
+    margin: 0 0.25rem;
+}
+
+.lastBlue {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+
+.score {
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #3c4043;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.mustName {
+    margin-bottom: 1rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
